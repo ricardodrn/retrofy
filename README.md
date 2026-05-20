@@ -7,14 +7,14 @@ Ever want to turn a selfie into an 8-bit character? Or make your vacation photos
 ## Get Started
 
 ```bash
-npm install retrofy
+npm install @rdnr/retrofy
 ```
 
 ## Quick Example
 
 **In Node.js:**
 ```ts
-import { retrofy } from 'retrofy'
+import { retrofy } from '@rdnr/retrofy'
 
 const result = await retrofy('photo.jpg', {
   pixelSize: 8,           // Chunky 8×8 blocks

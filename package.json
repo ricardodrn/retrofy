@@ -1,5 +1,5 @@
 {
-  "name": "retrofy",
+  "name": "@rdnr/retrofy",
   "version": "0.1.0",
   "description": "Convert images into retro pixel-art style (8-bit / old Nintendo aesthetic)",
   "repository": {
