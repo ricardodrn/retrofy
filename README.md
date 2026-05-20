@@ -29,6 +29,15 @@ const result = await retrofy('photo.jpg', {
 retrofy photo.jpg --pixel-size 8 --palette nes --dithering floyd-steinberg --output retro.png
 ```
 
+## Supported Formats
+
+retrofy uses [sharp](https://sharp.pixelplumbing.com) under the hood.
+
+| | Formats |
+|---|---|
+| **Input** | JPEG, PNG, WebP, AVIF, TIFF, GIF, SVG, HEIC/HEIF |
+| **Output** | PNG (always) |
+
 ## Configuration
 
 Fine-tune your retro transformation with these options:

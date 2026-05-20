@@ -51,7 +51,7 @@ export function quantize(buffer: Uint8ClampedArray, colorCount: number): RGB[] {
 
   if (colors.length === 0) return []
 
-  let boxes: ColorBox[] = [makeBox(colors)]
+  const boxes: ColorBox[] = [makeBox(colors)]
 
   while (boxes.length < colorCount) {
     // pick the box with the largest range to split

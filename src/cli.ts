@@ -50,7 +50,7 @@ retrofy(input, options)
       process.stdout.write(buf)
     }
   })
-  .catch((err) => {
-    console.error('Error:', err.message)
+  .catch((err: unknown) => {
+    console.error('Error:', err instanceof Error ? err.message : String(err))
     process.exit(1)
   })
